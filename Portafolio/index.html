@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <title>SirCrazy Portafolio</title>
+  </head>
+  <body>
+    <header id="tabsTop" class="site-header sticky-top">
+      <ul class="nav nav-pills nav-fill d-md-none text-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebarMenu" class="col d-md-block bg-light sidebar collapse">
+          <img src="./css/img/New Project.png" alt="" width="100%" />
+          <div class="position-sticky">
+            <ul class="nav nav-pills flex-column text-center">
+              <li class="nav-item">
+                <a class="nav-link active bg-info" href="#"
+                  ><i class="bi bi-house-fill" width="32" height="32"></i
+                  ><br />Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"
+                  ><i class="bi bi-person-bounding-box"></i><br />About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#works"
+                  ><i class="bi bi-briefcase-fill"></i><br />Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"
+                  ><i class="bi bi-envelope-fill"></i><br />Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <div class="container">
+            <h1 class="display-1 text-center">I'm SirCrazy</h1>
+            <p class="h4 text-center">Web Designer</p>
+            <img src="./css/img/demonHelado.png" class="w-100" alt="" />
+            <!-- About Section -->
+            <div id="about">
+              <h2>My Name</h2>
+              <hr class="separador" />
+              <p>
+                Some text about me. Some text about me. I am lorem ipsum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+              </p>
+              <h3>My Skills</h3>
+              <p>Web Design</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+              <div class="container">
+                <div class="row text-center bg-secondary">
+                  <div class="col-sm-3 p-4">
+                    <span>11+</span><br />
+                    Partners
+                  </div>
+                  <div class="col-sm-3 p-4">
+                    <span>55+</span><br />
+                    Projects Done
+                  </div>
+                  <div class="col-sm-3 p-4">
+                    <span>89+</span><br />
+                    Happy Clients
+                  </div>
+                  <div class="col-sm-3 p-4">
+                    <span>150+</span><br />
+                    Meetings
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!-- Grid for pricing tables -->
+            <h3>My Price</h3>
+            <div class="container">
+              
+            
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div id="price" class="card border-success mb-3 rounded-3">
+                  <div class="card-header bg-transparent border-success py-3">
+                    <h1 class="my-0 fw-normal" >Basic</h1>
+                  </div>
+                  <div class="card-body text-success">
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Web Design</li>
+                      <li>5GB Storage</li>
+                      <li>Mail Support</li>
+                      <li><h1 class="card-title pricing-card-title">$10<small class="text-muted fw-light">/mo</small></h1></li>
+                    </ul>
+                  </div>
+                  <div class="card-footer bg-transparent border-success text-center">
+                    <button type="button"class="btn btn-lg btn-light" >Sign Up</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div id="price" class="card border-success mb-3 rounded-3">
+                <div class="card-header bg-transparent border-success py-3">
+                  <h1 class="my-0 fw-normal">Pro</h1>
+                </div>
+                <div class="card-body text-success">
+                  <ul class="list-unstyled mt-3 mb-4">
+                      <li>Web Design</li>
+                      <li>50GB Storage</li>
+                      <li>Endless Support</li>
+                      <li><h1 class="card-title pricing-card-title">$25<small class="text-muted fw-light">/mo</small></h1></li>
+                    </ul>
+                  </div>
+                  <div
+                    class="
+                      card-footer
+                      bg-transparent
+                      border-success
+                      text-center
+                    "
+                  >
+                    <button type="button" class="btn btn-lg btn-light" >Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- Testimonials -->
+            <h3>My Reputation</h3>
+            
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+              <div class="row g-0 row-cols-auto">
+                <div class="col-5">
+                  <img class="img-thumbnail rounded-circle w-75" src="./css/img/Nico.jpg" alt="...">
+                </div>
+                <div class="col-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Chris Fox.</h5>
+                    <p class="card-text">CEO at Mighty Schools.</p><hr>
+                    <p class="card-text">SirCrazy saved us from a web disaster</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-5">
+                  <img class="img-thumbnail rounded-circle w-75" src="./css/img/Caro.jpg" alt="...">
+                </div>
+                <div class="col-6">
+                  <div class="card-body">
+                    <h5 class="card-title">Rebecca Flex.</h5>
+                    <p class="card-text">CEO at Company.</p><hr>
+                    <p class="card-text">No one is better than SirCrazy.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Section -->
+            <h2 id="works">My Works</h2>
+            <hr class="separador">
+            <div class="container">
+              <div class="row row-cols-md-2 g-2">
+                <div class="col-sm-8">
+                  <img class="w-100" src="./css/img/w-1.jpg" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <img class="w-100" src="./css/img/w-2.jpg" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <img class="w-100" src="./css/img/w-3.jpg" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <img class="w-100" src="./css/img/w-4.png" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <img class="w-100" src="./css/img/w-6.jpg" alt="">
+                </div>
+                <div class="col-sm-8">
+                  <img class="w-100" src="./css/img/w-7.jpg" alt="">
+                </div>
+                
+              </div>
+
+            </div><br>
+            <!-- Contact Section -->
+            <h3 id="contact">Contact Me</h3>
+            <hr class="separador">
+            <div class="container">
+              <i class="bi bi-geo-alt-fill"></i><span> Cordoba, Arg</span><br>
+              <i class="bi bi-telephone-fill"></i><span>  Phone: +54 9 351 387-7948</span><br>
+              <i class="bi bi-envelope-fill"></i><span> Email: matiascarpio.mc@gmail.com</span><br>
+              <form target="_blank" action="https://formsubmit.co/matiascarpio.mc@gmail.com" method="POST">
+                  <div class="form-group">
+                      <div class="form-row g-3">
+                          <div class="col-auto py-2">
+                              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                          </div>
+                          <div class="col-auto">
+                              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                          </div>
+                          <div class="col-auto py-2">
+                            <input type="text" name="_subject" class="form-control"  value="Subject" required>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group pb-2">
+                      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <input type="hidden" name="_captcha" value="false">
+                  <button type="submit" class="btn btn-info btn-block "><i class="bi bi-chat-text-fill"></i>SEND MESSAGE</button>
+              </form>
+          </div>
+          <!-- Footer -->
+          <footer>
+            <br><br>
+          </footer>
+
+
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
